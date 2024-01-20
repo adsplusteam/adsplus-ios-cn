@@ -143,7 +143,7 @@ Pod::Spec.new do |spec|
    spec.dependency "KSAdSDK", "~> 3.3.51.1"
    spec.dependency "Ads-CN", "~> 5.6.0.7"
    spec.dependency "JADYun", "~> 2.2.8"
-   spec.dependency "KlevinAdSDK", "~> 3.1.16"
+   spec.dependency "KlevinAdSDK", "~> 2.10.1"
    spec.dependency "BaiduMobAdSDK", "~> 5.300"
    spec.dependency "MintegralAdSDK/All", "~> 7.3.7"
 

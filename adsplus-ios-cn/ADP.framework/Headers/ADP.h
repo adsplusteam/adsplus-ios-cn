@@ -27,7 +27,7 @@
 
 
 //#define INCLUDE_CONTENT_SDK YES
-//#define CN_ONLY YES //单独国内版本
+#define CN_ONLY YES //单独国内版本
 //#define HW_ONLY YES //单独海外版本
 //#define NO_JAD YES //移除JAD
 

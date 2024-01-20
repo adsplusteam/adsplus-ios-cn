@@ -22,7 +22,7 @@
 
 
 
-//#define CN_ONLY YES //单独国内版本
+#define CN_ONLY YES //单独国内版本
 
 #ifndef CN_ONLY
 
