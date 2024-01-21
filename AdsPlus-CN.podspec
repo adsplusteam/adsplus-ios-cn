@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AdsPlus-CN"
-  spec.version      = "4.2.1.1"
-  spec.summary      = "adsplus国内版本."
+  spec.version      = "4.2.2"
+  spec.summary      = "AdsPlus国内版本."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -92,11 +92,11 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "adsplus-ios-cn/ADP.framework/Headers/*.{h,m}"
+  #spec.source_files  = "Classes", "adsplus-ios-cn/ADP.framework/Headers/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # SDK的路径 写上库的位置 (自动生成没有这一项，不写会出错)
-  spec.vendored_frameworks = 'adsplus-ios-cn/ADP.framework'
+  spec.vendored_frameworks = 'AdsPlus-CN/ADP.framework'
   # spec.public_header_files = "Classes/**/*.h"
 
 
@@ -108,7 +108,7 @@ Pod::Spec.new do |spec|
   #  non-essential files like tests, examples and documentation.
   #
 
-   spec.resource  = "adsplus-ios-cn/ADPBundle.bundle"
+   spec.resource  = "AdsPlus-CN/ADPBundle.bundle"
 
   # add line
   # spec.resources = "Resources/*.png"
